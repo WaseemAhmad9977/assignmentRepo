@@ -58,7 +58,7 @@ This will start the development server on 👉 http://localhost:5173/
 ![Price sort](./screenshots/sortbyprice.png)  
 
 ### 📝 productModel
-![Price sort](./screenshots/prductModal.png)  
+![Price sort](./screenshots/productModal.png)  
 
 ### 📝 proper maintained dynamic route(slug)
 ![Price sort](./screenshots/properdynamicroute.png)  
