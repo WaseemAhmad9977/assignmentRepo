@@ -1,56 +1,48 @@
-📊 User Post Dashboard
+# 📚 Assignment Repo  
 
-This is a React project that displays a list of users and their posts using SWR (React data fetching library).
-It also includes a search feature, skeleton loading screens, and a modal popup to view a user’s posts.
+This repository contains **two React assignments** showcasing my frontend development skills using React, Tailwind CSS, SWR, and modern UI practices.  
 
-🚀 Features
+---
 
-✅ Fetch users and posts from API using SWR
+## 📂 Projects Inside  
 
-✅ Search users by name
+### 1️⃣ [AssignmentCom](./assignmentcom)  
+🛍️ **E-commerce UI**  
+- Product listing with filters, sorting, search  
+- Product detail page  
+- Skeleton loaders while fetching data  
+- Built using React, SWR, Tailwind CSS  
 
-✅ Click on a user to view all their posts in a modal
+👉 [View README](./assignmentcom/README.md)  
 
-✅ Skeleton loaders while data is loading
+---
 
-✅ Clean UI with Tailwind CSS and React Icons
+### 2️⃣ [AssignmentPost](./assignmentpost)  
+📊 **User Post Dashboard**  
+- Fetches users & their posts with SWR  
+- Search users by name  
+- Modal popup for viewing user posts  
+- Skeleton loaders for users  
+- Clean UI with Tailwind CSS  
 
-📂 Project Structure
-src/
-│── components/
-│   ├── UserPostDashboard.jsx   # Main dashboard with user cards
-│   ├── UserPostModal.jsx       # Modal to show selected user's p
-│   ├── UserSkeleton.jsx        # Skeleton loader for user cards
-│
-│── util/
-│   ├── fetcher.js              # Fetch function used by SWR
-│
-│── App.js                      # Root component
-│── index.js                    # Entry point
+👉 [View README](./assignmentpost/README.md)  
 
-⚙️ Installation Steps
+---
 
-Follow these steps to set up the project locally:
+## 🚀 Tech Stack Used  
+- React 18  
+- SWR (Data Fetching)  
+- Tailwind CSS  
+- React Icons  
+- React Router DOM  
+- React Loading Skeleton  
 
-1️⃣ Clone the Repository
+---
+
+## 🔗 How to Run Locally  
+
+1️⃣ Clone this repository  
+```bash
 git clone https://github.com/WaseemAhmad9977/assignmentRepo.git
-cd user-post-dashboard
-
-2️⃣ Install Dependencies
-
-Make sure you have Node.js (>=14) installed. Then run:
-
-npm install
-
-3️⃣ Run the Project
-npm run dev
-
-
-This will start the development server on http://localhost:5173/
-
-### 🏠 Dashboard  
-![Dashboard](./screenshots/dashboard.png)  
-
-### 📝 User Posts 
-![User Posts](./screenshots/user-posts.png)  
-
+cd assignmentcom
+cd assignmentpost
