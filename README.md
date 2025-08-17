@@ -1,82 +1,56 @@
-# 📚 Assignment Repo  
+📊 User Post Dashboard
 
-This repository contains **two React assignments** showcasing my frontend development skills using React, Tailwind CSS, SWR, and modern UI practices.  
+This is a React project that displays a list of users and their posts using SWR (React data fetching library).
+It also includes a search feature, skeleton loading screens, and a modal popup to view a user’s posts.
 
----
+🚀 Features
 
-## 📂 Projects Inside  
+✅ Fetch users and posts from API using SWR
 
-### 1️⃣ [AssignmentCom](./assignmentcom)  
-🛍️ **E-commerce UI**  
-- Product listing with filters, sorting, search  
-- Product detail page  
-- Skeleton loaders while fetching data  
-- Built using React, SWR, Tailwind CSS  
+✅ Search users by name
 
-👉 [View README](./assignmentcom/README.md)  
+✅ Click on a user to view all their posts in a modal
 
----
+✅ Skeleton loaders while data is loading
 
-### 2️⃣ [AssignmentPost](./assignmentpost)  
-📊 **User Post Dashboard**  
-- Fetches users & their posts with SWR  
-- Search users by name  
-- Modal popup for viewing user posts  
-- Skeleton loaders for users  
-- Clean UI with Tailwind CSS  
+✅ Clean UI with Tailwind CSS and React Icons
 
-👉 [View README](./assignmentpost/README.md)  
+📂 Project Structure
+src/
+│── components/
+│   ├── UserPostDashboard.jsx   # Main dashboard with user cards
+│   ├── UserPostModal.jsx       # Modal to show selected user's p
+│   ├── UserSkeleton.jsx        # Skeleton loader for user cards
+│
+│── util/
+│   ├── fetcher.js              # Fetch function used by SWR
+│
+│── App.js                      # Root component
+│── index.js                    # Entry point
 
----
+⚙️ Installation Steps
 
-## 🚀 Tech Stack Used  
-- React 18  
-- SWR (Data Fetching)  
-- Tailwind CSS  
-- React Icons  
-- React Router DOM  
-- React Loading Skeleton  
+Follow these steps to set up the project locally:
 
----
-
-## 🔗 How to Run Locally  
-
-1️⃣ Clone this repository  
-bash
+1️⃣ Clone the Repository
 git clone https://github.com/WaseemAhmad9977/assignmentRepo.git
-cd assignmentRepo
-2️⃣ Navigate to a project
+cd user-post-dashboard
 
-bash
-Copy
-Edit
-cd assignmentcom   # OR cd assignmentpost
-3️⃣ Install dependencies
+2️⃣ Install Dependencies
 
-bash
-Copy
-Edit
+Make sure you have Node.js (>=14) installed. Then run:
+
 npm install
-4️⃣ Start the project
 
-bash
-Copy
-Edit
+3️⃣ Run the Project
 npm run dev
-The app will run at 👉 http://localhost:5173/
-
-🎯 Purpose
-This repository is created to showcase my skills in React + Tailwind CSS + SWR with real-world UI use cases like:
-
-E-commerce product UI
-
-User dashboard with posts
 
 
+This will start the development server on http://localhost:5173/
 
+### 🏠 Dashboard  
+![Dashboard](./screenshots/dashboard.png)  
 
+### 📝 User Posts 
+![User Posts](./screenshots/user-posts.png)  
 
-
-
-
-Ask ChatGPT
